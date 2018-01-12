@@ -54,3 +54,13 @@ customFileTypes:
 ```vim
 au BufRead,BufNewFile *.wpy setlocal filetype=vue.html.javascript.css
 ```
+
+### app.json
+文件名不需要写文件后缀，因为框架会自动去寻找路径下 .json, .js, .wxml, .wxss 四个文件进行整合。
+
+```文件名不需要写文件后缀，因为框架会自动去寻找路径下 .json, .js, .wxml, .wxss 四个文件进行整合。
+https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html
+```
+
+
+
